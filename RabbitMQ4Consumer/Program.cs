@@ -35,9 +35,9 @@ namespace RabbitMQ4Consumer
                 Console.WriteLine(" [x] Done");
             });
        
-            //MyConsumer.ConsumeForDistributing<Object>("localhost", "queueName", (msg) =>
+            //ObjectConsumer.ConsumeForDistributing<Object>("localhost", "queueName", (msg) =>
             //{
-            //    Console.WriteLine(" [x] Received {0}", msg.attr);
+            //    Console.WriteLine(" [x] Received {0}", msg.attr1);
             //    Thread.Sleep(300 * 1000);
             //    Console.WriteLine(" [x] Done");
             //});
