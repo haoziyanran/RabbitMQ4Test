@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RabbitMQ4Consumer
 {
-    public class MyConsumer
+    public class ObjectConsumer
     {
         public static void ConsumeForDistributing<T>(string hostName, string queue, Action<T> action) where T : class
         {
